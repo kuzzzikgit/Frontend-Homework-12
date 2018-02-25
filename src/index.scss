@@ -1,0 +1,40 @@
+.root {
+    background-image: url('../public/images/back.jpg');
+    width: 900px;
+    height: 995px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form {
+    width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+    &__header {
+        padding-top: 250px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    &__heading {
+        width: 270px;
+        font-family: 'PT Sans', Helvetica, sans-serif;
+        font-size: 33px;
+        color: #262e73;
+        line-height: 36px;
+        font-weight: 700;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 14px;
+    }
+}
+
+.checkForm_text {
+    display: inline-block;
+    font-size: 12px;
+    color: #949caa;
+}
+
+.checkForm_href {
+    color: #262e73;
+    text-decoration: none;
+}
